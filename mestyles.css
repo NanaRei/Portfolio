@@ -1,0 +1,250 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+/*Global*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark {
+  padding: 15px;
+  background: 	 #cc00cc;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Header**/
+header {
+  background: #ff4da6;
+  color: #5900b3;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #9900cc 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+  margin-left: 60px;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .hightlight, header .current a{
+  color: white;
+  font-weight: bold;
+}
+header span.highlight {
+  color: #FFFFFF;
+}
+
+header a:hover{
+  color: #6600cc;
+  font-weight: bold;
+}
+
+/*Welcome */
+#welcome {
+  min-height: 570px;
+  background: url('../images/liofficebig2.jpg') no-repeat 0 -50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*About */
+#about {
+  text-align: center;
+
+
+}
+
+}
+
+#about h1{
+  margin-top: 100px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#about p{
+  font-size: 20px;
+}
+
+/*Skills */
+#skills{
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #000000;
+}
+#skills h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#skills p{
+  font-size: 20px;
+}
+
+/*Portfolio */
+#portfolio {
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: #000000;
+}
+#portfolio h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#portfolio p{
+  font-size: 20px;
+}
+
+/*Contacts*/
+#contacts {
+  padding: 15px;
+  color: #ffffff;
+  background: #6600CC;
+}
+
+#contacts h1{
+  text-align: center;
+}
+
+#contacts form {
+  float: center;
+  margin-top: 60px;
+}
+
+#contacts input {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#contacts input[type=text] {
+  border: 2px #FFD700;
+  border-radius: 8px;
+  background-color: #F0F8FF;
+}
+
+#contacts input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#contacts input[type="email"] {
+  padding: 12px 20px;
+  width: 40%;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#contacts textarea {
+  width: 40%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize: none;
+}
+
+/*Boxes */
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+
+/*Sidebar*/
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/*Main-col */
+article #main-col{
+  float: left;
+  width: 65%;
+}
+
+/*Skills */
+ul #skills li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+footer {
+  padding: 10px;
+  margin-top: 20px;
+  color: #0000cc;
+  background-color: #99FFCC;
+  text-align: center;
+}
